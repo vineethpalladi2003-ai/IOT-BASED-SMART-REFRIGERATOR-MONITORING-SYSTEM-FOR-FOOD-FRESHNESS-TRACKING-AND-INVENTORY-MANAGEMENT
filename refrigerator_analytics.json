@@ -1,0 +1,224 @@
+{
+  "fridge_id": "FRIDGE_001",
+  "simulation_timestamp": "2026-07-13T09:57:39.976336",
+  "total_cycles": 1000,
+  "refrigerator_statistics": {
+    "avg_temperature": 6.27,
+    "min_temperature": -2.44,
+    "max_temperature": 10,
+    "avg_humidity": 65.78,
+    "min_humidity": 30,
+    "max_humidity": 95,
+    "avg_pressure": 97.57,
+    "avg_air_circulation": 75.15,
+    "total_door_opens": 48,
+    "power_issues": 5
+  },
+  "food_freshness_statistics": {
+    "freshness_distribution": {
+      "Fresh": 13000,
+      "Expiring Soon": 1000,
+      "Good": 1000
+    },
+    "avg_quality_score": 88.25,
+    "min_quality_score": 65.0,
+    "max_quality_score": 100
+  },
+  "inventory_statistics": {
+    "inventory_level_distribution": {
+      "Adequate": 70,
+      "Overstocked": 20,
+      "Low": 47,
+      "Critical": 14863
+    },
+    "avg_quantity": 0.06,
+    "min_quantity": 0,
+    "max_quantity": 17,
+    "total_items_tracked": 15
+  },
+  "alert_statistics": {
+    "total_alerts": 17021,
+    "alert_types": {
+      "Expiry Warning": 1000,
+      "Low Stock": 14910,
+      "Temperature High": 743,
+      "Door Open": 48,
+      "Humidity Low": 101,
+      "Power Issue": 5,
+      "Temperature Low": 102,
+      "Humidity High": 112
+    },
+    "severity_distribution": {
+      "WARNING": 1741,
+      "CRITICAL": 15232,
+      "INFO": 48
+    }
+  },
+  "food_items": [
+    {
+      "item_id": "FOOD_001",
+      "item_name": "Beverages Item 1",
+      "category": "Beverages",
+      "quantity": 0,
+      "unit": "boxes",
+      "expiry_date": "2026-08-07T09:57:39.418232",
+      "storage_location": "Shelf 1",
+      "barcode": "123456789000",
+      "entry_date": "2026-07-11T09:57:39.418242"
+    },
+    {
+      "item_id": "FOOD_002",
+      "item_name": "Beverages Item 2",
+      "category": "Beverages",
+      "quantity": 0,
+      "unit": "boxes",
+      "expiry_date": "2026-08-03T09:57:39.418264",
+      "storage_location": "Shelf 2",
+      "barcode": "123456789001",
+      "entry_date": "2026-07-09T09:57:39.418267"
+    },
+    {
+      "item_id": "FOOD_003",
+      "item_name": "Meat Item 3",
+      "category": "Meat",
+      "quantity": 0,
+      "unit": "kg",
+      "expiry_date": "2026-08-01T09:57:39.418278",
+      "storage_location": "Shelf 3",
+      "barcode": "123456789002",
+      "entry_date": "2026-07-12T09:57:39.418279"
+    },
+    {
+      "item_id": "FOOD_004",
+      "item_name": "Dairy Item 4",
+      "category": "Dairy",
+      "quantity": 0,
+      "unit": "kg",
+      "expiry_date": "2026-07-21T09:57:39.418287",
+      "storage_location": "Shelf 4",
+      "barcode": "123456789003",
+      "entry_date": "2026-07-07T09:57:39.418288"
+    },
+    {
+      "item_id": "FOOD_005",
+      "item_name": "Fruits Item 5",
+      "category": "Fruits",
+      "quantity": 0,
+      "unit": "containers",
+      "expiry_date": "2026-07-18T09:57:39.418296",
+      "storage_location": "Shelf 1",
+      "barcode": "123456789004",
+      "entry_date": "2026-07-07T09:57:39.418297"
+    },
+    {
+      "item_id": "FOOD_006",
+      "item_name": "Fruits Item 6",
+      "category": "Fruits",
+      "quantity": 0,
+      "unit": "containers",
+      "expiry_date": "2026-07-21T09:57:39.418304",
+      "storage_location": "Shelf 2",
+      "barcode": "123456789005",
+      "entry_date": "2026-07-07T09:57:39.418306"
+    },
+    {
+      "item_id": "FOOD_007",
+      "item_name": "Beverages Item 7",
+      "category": "Beverages",
+      "quantity": 0,
+      "unit": "pieces",
+      "expiry_date": "2026-07-29T09:57:39.418312",
+      "storage_location": "Shelf 3",
+      "barcode": "123456789006",
+      "entry_date": "2026-07-06T09:57:39.418314"
+    },
+    {
+      "item_id": "FOOD_008",
+      "item_name": "Meat Item 8",
+      "category": "Meat",
+      "quantity": 0,
+      "unit": "kg",
+      "expiry_date": "2026-08-11T09:57:39.418320",
+      "storage_location": "Shelf 4",
+      "barcode": "123456789007",
+      "entry_date": "2026-07-12T09:57:39.418322"
+    },
+    {
+      "item_id": "FOOD_009",
+      "item_name": "Meat Item 9",
+      "category": "Meat",
+      "quantity": 0,
+      "unit": "kg",
+      "expiry_date": "2026-08-04T09:57:39.418328",
+      "storage_location": "Shelf 1",
+      "barcode": "123456789008",
+      "entry_date": "2026-07-13T09:57:39.418329"
+    },
+    {
+      "item_id": "FOOD_010",
+      "item_name": "Beverages Item 10",
+      "category": "Beverages",
+      "quantity": 0,
+      "unit": "boxes",
+      "expiry_date": "2026-07-18T09:57:39.418336",
+      "storage_location": "Shelf 2",
+      "barcode": "123456789009",
+      "entry_date": "2026-07-11T09:57:39.418338"
+    },
+    {
+      "item_id": "FOOD_011",
+      "item_name": "Dairy Item 11",
+      "category": "Dairy",
+      "quantity": 0,
+      "unit": "containers",
+      "expiry_date": "2026-07-19T09:57:39.418344",
+      "storage_location": "Shelf 3",
+      "barcode": "123456789010",
+      "entry_date": "2026-07-06T09:57:39.418345"
+    },
+    {
+      "item_id": "FOOD_012",
+      "item_name": "Beverages Item 12",
+      "category": "Beverages",
+      "quantity": 0,
+      "unit": "kg",
+      "expiry_date": "2026-08-07T09:57:39.418352",
+      "storage_location": "Shelf 4",
+      "barcode": "123456789011",
+      "entry_date": "2026-07-09T09:57:39.418353"
+    },
+    {
+      "item_id": "FOOD_013",
+      "item_name": "Prepared Meals Item 13",
+      "category": "Prepared Meals",
+      "quantity": 0,
+      "unit": "kg",
+      "expiry_date": "2026-08-06T09:57:39.418360",
+      "storage_location": "Shelf 1",
+      "barcode": "123456789012",
+      "entry_date": "2026-07-07T09:57:39.418361"
+    },
+    {
+      "item_id": "FOOD_014",
+      "item_name": "Prepared Meals Item 14",
+      "category": "Prepared Meals",
+      "quantity": 0,
+      "unit": "pieces",
+      "expiry_date": "2026-07-14T09:57:39.418369",
+      "storage_location": "Shelf 2",
+      "barcode": "123456789013",
+      "entry_date": "2026-07-11T09:57:39.418370"
+    },
+    {
+      "item_id": "FOOD_015",
+      "item_name": "Fruits Item 15",
+      "category": "Fruits",
+      "quantity": 0,
+      "unit": "L",
+      "expiry_date": "2026-07-17T09:57:39.418377",
+      "storage_location": "Shelf 3",
+      "barcode": "123456789014",
+      "entry_date": "2026-07-08T09:57:39.418378"
+    }
+  ]
+}
